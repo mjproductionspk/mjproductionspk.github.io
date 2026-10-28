@@ -44,3 +44,6 @@ footer nav{display:flex;gap:18px;font-size:9px;letter-spacing:.08em;text-transfo
 @media(max-width:680px){.site-header .nav-menu>a:first-child{display:block}}
 a:focus-visible,button:focus-visible{outline:2px solid var(--gold-bright);outline-offset:4px}.gallery-video video:focus-visible{outline:2px solid var(--gold-bright);outline-offset:-4px}
 :root{--serif:Georgia,"Times New Roman",serif;--sans:Arial,Helvetica,sans-serif}
+.hero-slide.is-active{animation:hero-slide-arrive 1.45s cubic-bezier(.2,.72,.22,1) both}
+@keyframes hero-slide-arrive{from{opacity:.9;transform:translate3d(.45%,0,0)}to{opacity:1;transform:translate3d(0,0,0)}}
+@media(prefers-reduced-motion:reduce){.hero-slide.is-active{animation:none}}
