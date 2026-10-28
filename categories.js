@@ -68,7 +68,6 @@ if (categoryTrack) {
     <a class="category-card" href="category.html?category=${category.slug}" target="_blank" rel="noopener noreferrer" data-index="${String(index + 1).padStart(2, '0')}" data-reveal style="--reveal-delay:${Math.min(index % 4, 3) * 70}ms">
       <span class="category-number">${String(index + 1).padStart(2, '0')} / 10</span>
       <span class="category-title">${category.title}</span>
-      <span class="category-arrow" aria-hidden="true">↗</span>
     </a>
   `).join('');
   categoryTrack.querySelectorAll('[data-reveal]').forEach((item) => window.MJ_observeReveal?.(item));
