@@ -48,3 +48,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold-bright);outlin
 @keyframes hero-slide-arrive{from{opacity:.9;transform:translate3d(.45%,0,0)}to{opacity:1;transform:translate3d(0,0,0)}}
 @media(hover:hover) and (pointer:fine){.hero-slide img{scale:1;transition:scale .65s cubic-bezier(.2,.72,.22,1),transform 6.5s ease}.hero-slide.is-active img:hover{scale:1.035}}
 @media(prefers-reduced-motion:reduce){.hero-slide.is-active{animation:none}.hero-slide img{scale:1!important;transition:none}}
+.service-row{grid-template-columns:55px minmax(0,1fr) max-content}
+.service-row>a{width:auto;height:auto;padding:8px 0;border:0;font-size:8px;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap;transition:color .25s ease,transform .25s ease}
+.service-row>a:hover{background:transparent;color:#fff;transform:translateX(2px)}
+@media(max-width:680px){.service-row{grid-template-columns:30px minmax(0,1fr) max-content}.service-row>a{padding:6px 0;font-size:7px}}
