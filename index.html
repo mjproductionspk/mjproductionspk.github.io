@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090908">
+  <meta name="description" content="MJ Productions creates photography, cinematography, event coverage and creative production for weddings, fashion, birthdays, products, portraits and more.">
+  <meta property="og:title" content="MJ Productions — Photography & Film">
+  <meta property="og:description" content="Photography, Cinematography & Creative Production. Visual storytelling for every moment.">
+  <meta property="og:type" content="website">
+  <title>MJ Productions — Photography & Film</title>
+  <link rel="stylesheet" href="cinematic.css">
+  <link rel="stylesheet" href="redesign.css">
+  <script src="motion.js" defer></script>
+  <script src="categories.js" defer></script>
+</head>
+<body class="home-page">
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="MJ Productions home"><img class="brand-logo" src="assets/mj-productions-logo-transparent.png" width="1254" height="1254" alt=""><span class="brand-name">MJ <b>PRODUCTIONS</b></span></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation"><span></span><span></span></button>
+    <nav class="nav-menu" id="primary-navigation" aria-label="Main navigation"><a href="#top">Home</a><a href="#portfolio">Portfolio</a><a href="#services">Services</a><a href="#about">About</a><a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-actions hero-actions-top"><a class="button button-gold" href="#portfolio">Explore our work <span aria-hidden="true">↘</span></a><a class="button button-text" href="#contact">Book a shoot <span aria-hidden="true">↗</span></a></div>
+      <div class="hero-copy">
+        <p class="eyebrow hero-kicker"><span></span> MJ PRODUCTIONS · PHOTOGRAPHY & FILM</p>
+        <h1 class="hero-title" id="hero-title"><span class="title-line"><span>We capture</span></span><span class="title-line"><span>the moment.</span></span><span class="title-line title-accent"><span>We create</span></span><span class="title-line title-accent"><span>the story.</span></span></h1>
+        <p class="hero-intro">Photography, Cinematography &amp; Creative Production.</p>
+        <div class="hero-signoff"><span>MJ PRODUCTIONS</span><span>VISUAL STORYTELLING FOR EVERY MOMENT</span></div>
+      </div>
+      <div class="hero-visual" aria-label="MJ Productions photo portfolio">
+        <div class="hero-slideshow" data-hero-slideshow>
+          <div class="hero-slides" id="hero-slides" aria-live="off">
+            <figure class="hero-slide is-active"><img src="assets/hero-wedding-piano.png" width="1290" height="1612" fetchpriority="high" alt="Wedding couple sharing a moment beside a grand piano"></figure>
+            <figure class="hero-slide"><img src="assets/hero-wedding-couple-1.jpeg" width="1280" height="1920" loading="lazy" alt="Bride and groom standing together beneath a garden lantern"></figure>
+            <figure class="hero-slide"><img src="assets/hero-wedding-couple-2.jpeg" width="1280" height="1920" loading="lazy" alt="Intimate wedding portrait of a couple in traditional attire"></figure>
+            <figure class="hero-slide hero-slide--coffee"><img src="assets/hero-coffee-product.jpeg" width="3024" height="4032" loading="lazy" alt="Coffee cup and headphones arranged for a product photograph"></figure>
+            <figure class="hero-slide hero-slide--burger"><img src="assets/hero-burger-product.jpeg" width="7008" height="4672" loading="lazy" alt="Burger photographed against a dark background"></figure>
+            <figure class="hero-slide hero-slide--meetup"><img src="assets/hero-influencer-meetup.jpeg" width="3072" height="4608" loading="lazy" alt="Two guests sharing a moment at an evening meetup"></figure>
+            <figure class="hero-slide hero-slide--bridal"><img src="assets/hero-bridal-portrait.jpeg" width="4672" height="7008" loading="lazy" alt="Bridal portrait in richly detailed red attire"></figure>
+            <figure class="hero-slide hero-slide--wedding"><img src="assets/hero-wedding-ceremony.jpeg" width="4000" height="6000" loading="lazy" alt="Wedding couple beneath a floral ceremony canopy"></figure>
+            <figure class="hero-slide hero-slide--fashion"><img src="assets/hero-fashion-portrait.jpeg" width="7008" height="4672" loading="lazy" alt="Fashion portrait outdoors among greenery"></figure>
+          </div>
+          <div class="hero-slide-shade" aria-hidden="true"></div>
+          <span class="visual-caption">WEDDINGS · MOMENTS · STORIES</span>
+          <div class="hero-slide-controls" aria-label="Hero photo controls">
+            <button type="button" data-hero-prev aria-label="Previous hero photo">←</button>
+            <button type="button" data-hero-next aria-label="Next hero photo">→</button>
+          </div>
+        </div>
+        <div class="visual-edge" aria-hidden="true">PHOTOGRAPHY&nbsp;&nbsp; / &nbsp;&nbsp;FILM&nbsp;&nbsp; / &nbsp;&nbsp;STORIES</div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to studio introduction"><span class="scroll-line"></span><span>SCROLL TO EXPLORE</span></a>
+    </section>
+
+    <section class="statement-section" id="brand-statement">
+      <p class="eyebrow" data-reveal>THE MJ APPROACH</p>
+      <h2 data-reveal>Every frame<br>has a <em>story.</em></h2>
+      <p data-reveal>From unforgettable celebrations to powerful brand campaigns, MJ Productions transforms real moments into lasting visual experiences.</p>
+      <span class="statement-rule" aria-hidden="true"></span>
+    </section>
+
+    <section class="portfolio-section" id="portfolio">
+      <div class="portfolio-heading">
+        <div><p class="eyebrow" data-reveal>SELECTED WORK</p><h2 data-reveal>Explore by <em>category.</em></h2></div>
+        <div class="gallery-controls" aria-label="Portfolio category controls"><button class="gallery-control" type="button" data-scroll="prev" aria-label="Previous categories">←</button><button class="gallery-control" type="button" data-scroll="next" aria-label="Next categories">→</button></div>
+      </div>
+      <div class="category-track-wrap"><div class="category-track" id="category-track" aria-label="Portfolio categories"></div></div>
+      <div class="portfolio-footer"><span>SWIPE OR USE THE ARROWS TO EXPLORE</span><span class="gallery-progress"><span id="gallery-progress-fill"></span></span><span>10 CATEGORIES</span></div>
+    </section>
+
+    <section class="services-section" id="services">
+      <div class="services-heading"><p class="eyebrow" data-reveal>WHAT WE DO</p><h2 data-reveal>Made for the <em>moment.</em></h2><p data-reveal>Photography and film shaped around the story you want to tell.</p></div>
+      <div class="service-list">
+        <article class="service-row" data-reveal><span class="service-number">01</span><div><h3>Photography</h3><p>Portrait, fashion, product, restaurant and commercial photography.</p></div><a href="category.html?category=models-shoots" target="_blank" rel="noopener noreferrer" aria-label="Explore photography categories">↗</a></article>
+        <article class="service-row" data-reveal><span class="service-number">02</span><div><h3>Cinematography</h3><p>Moving images for documentary, creative content and memorable occasions.</p></div><a href="category.html?category=documentary" target="_blank" rel="noopener noreferrer" aria-label="Explore documentary category">↗</a></article>
+        <article class="service-row" data-reveal><span class="service-number">03</span><div><h3>Event coverage</h3><p>Wedding, birthday, religious, educational and influencer events.</p></div><a href="category.html?category=wedding-events" target="_blank" rel="noopener noreferrer" aria-label="Explore event categories">↗</a></article>
+        <article class="service-row" data-reveal><span class="service-number">04</span><div><h3>Creative production</h3><p>Visual content for products, restaurants, fashion and brands.</p></div><a href="category.html?category=product-shoots" target="_blank" rel="noopener noreferrer" aria-label="Explore product shoots category">↗</a></article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <p class="eyebrow" data-reveal>ABOUT MJ PRODUCTIONS</p>
+      <div class="about-main"><h2 data-reveal>Keep the feeling.<br><em>Keep the frame.</em></h2><p data-reveal>MJ Productions creates photography and film for weddings, events, creative content and commercial production. Every project begins with its own story.</p></div>
+      <div class="about-foot"><span>VISUAL STORYTELLING FOR EVERY MOMENT</span><span>PHOTOGRAPHY · CINEMATOGRAPHY</span></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <p class="eyebrow" data-reveal>BOOKINGS & COLLABORATIONS</p>
+      <div class="contact-main"><h2 data-reveal>Let’s create<br>something <em>unforgettable.</em></h2><div data-reveal><p>Tell us what you’re planning. We’d love to hear about it.</p><a class="button button-gold" href="https://wa.me/923210088773?text=Hi%20MJ%20Productions%2C%20I%27d%20like%20to%20discuss%20a%20booking." target="_blank" rel="noopener noreferrer">Book your shoot on WhatsApp <span aria-hidden="true">↗</span></a></div></div>
+      <div class="contact-foot"><span><a href="mailto:mjproductionspk@gmail.com">mjproductionspk@gmail.com</a> · <a href="tel:+923210088773">+92 321 0088773</a></span><span><a href="https://wa.me/923210088773" target="_blank" rel="noopener noreferrer">WhatsApp <span aria-hidden="true">↗</span></a> · <a href="https://www.instagram.com/mjproductions18/" target="_blank" rel="noopener noreferrer">@mjproductions18 <span aria-hidden="true">↗</span></a></span></div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#top"><img class="brand-logo" src="assets/mj-productions-logo-transparent.png" width="1254" height="1254" loading="lazy" alt=""><span>MJ <b>PRODUCTIONS</b></span></a><p>Visual storytelling for every moment.</p><nav aria-label="Footer navigation"><a href="#portfolio">Portfolio</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav><a class="footer-instagram" href="mailto:mjproductionspk@gmail.com">mjproductionspk@gmail.com</a><a class="footer-instagram" href="https://wa.me/923210088773" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a><a class="footer-instagram" href="https://www.instagram.com/mjproductions18/" target="_blank" rel="noopener noreferrer">@mjproductions18 ↗</a><span>© 2026 MJ Productions</span></footer>
+</body>
+</html>
